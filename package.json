@@ -1,10 +1,10 @@
 {
-  "name": "atom-soda-dark-ui",
+  "name": "tri-soda-dark-ui",
   "theme": "ui",
   "version": "0.6.0",
-  "description": "Soda Dark theme for interface components",
+  "description": "Soda Dark theme for interface components. Forked from dmackerman/atom-soda-dark-ui. ",
   "license": "MIT",
-  "repository": "https://github.com/dmackerman/atom-soda-dark-ui",
+  "repository": "https://github.com/tnguyen14/atom-soda-dark-ui.git",
   "engines": {
     "atom": ">0.50.0"
   }

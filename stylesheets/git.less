@@ -4,6 +4,14 @@
 .status { .text(normal); }
 .status-added { .text(info); }
 .status-ignored { .text(subtle); }
-.status-modified { .text(warning); }
+.status-modified {
+  .text(warning);
+  > .list-item .icon,
+  > .icon {
+    &:after {
+      content: '*';
+    }
+  }
+}
 .status-removed { .text(error); }
 .status-renamed { .text(success); }
